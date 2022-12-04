@@ -3,7 +3,7 @@ import flatpickr from "flatpickr";
 // Дополнительный импорт стилей
 import "flatpickr/dist/flatpickr.min.css";
 
-refs = {
+const refs = {
     inputDate: document.querySelector('#datetime-picker'),
     startBtn: document.querySelector('button[data-start]'),
     days: document.querySelector('span[data-days]'),
