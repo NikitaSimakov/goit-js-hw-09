@@ -14,6 +14,7 @@ refs = {
 };
 
 // console.dir(refs.body);
+// console.log('privet');
 refs.body.style.display = "flex"; 
 refs.body.style.justifyContent = "center";
 refs.body.style.alignItems = "center";
