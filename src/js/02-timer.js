@@ -10,7 +10,14 @@ refs = {
     hours: document.querySelector('span[data-hours]'),
     minutes: document.querySelector('span[data-minutes]'),
     seconds: document.querySelector('span[data-seconds]'),
+    body: document.querySelector('body'),
 };
+
+// console.dir(refs.body);
+refs.body.style.display = "flex"; 
+refs.body.style.justifyContent = "center";
+refs.body.style.alignItems = "center";
+refs.body.style.backgroundColor = "pink";
 
 function convertMs(ms) {
     // Number of milliseconds per unit of time
