@@ -3,6 +3,8 @@ import flatpickr from "flatpickr";
 // Дополнительный импорт стилей
 import "flatpickr/dist/flatpickr.min.css";
 
+let selectedTime = null;
+
 const refs = {
     inputDate: document.querySelector('#datetime-picker'),
     startBtn: document.querySelector('button[data-start]'),
